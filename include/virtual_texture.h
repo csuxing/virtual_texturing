@@ -5,7 +5,7 @@
 #include <vector>
 #include <unordered_map>
 #include <memory>
-
+#include "glm_hash.h"
 class VirtualTexture {
 public:
     struct Page {
