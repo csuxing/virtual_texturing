@@ -40,7 +40,7 @@ set(HEADERS
     include/shader.h
     include/virtual_texture.h
     include/glm_hash.h
-    #include/texture_manager.h
+    include/texture_manager.h
 )
 
 # 添加 glad 源文件
@@ -50,6 +50,7 @@ set(SOURCES
     src/main.cpp
     src/virtual_texture.cpp
     src/shader.cpp
+    src/texture_manager.cpp
     ${GLAD_SOURCE}    # 添加 glad 源文件
 )
 
@@ -63,7 +64,6 @@ add_executable(virtual_texturing
     ${SOURCES}
     ${HEADERS}
     ${SHADERS}
-    #src/texture_manager.cpp
 )
 
 source_group("src" FILES ${SOURCES})

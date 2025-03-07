@@ -86,7 +86,7 @@ int main() {
     VirtualTexture virtualTexture(4096, 256, 1024);
 
     // ¼ÓÔØ×ÅÉ«Æ÷
-    Shader shader("shaders/vertex.glsl", "shaders/fragment.glsl");
+    Shader shader("F:/MyProject/virtual_texturing/shaders/vertex.glsl", "F:/MyProject/virtual_texturing/shaders/fragment.glsl");
     shader.use();
     shader.setInt("pageTable", 0);
     shader.setInt("physicalTexture", 1);
